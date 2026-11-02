@@ -33,7 +33,7 @@
 
 ### 下载运行
 
-1. 从 [Releases](https://github.com/tttlc0507/codex-glass-companion/releases/latest) 下载 `macos-universal.zip`，对照 `SHA256SUMS` 校验并解压。
+1. 从 [Releases](https://github.com/tttlc0507/codex-glass-companion/releases) 下载 `macos-universal.zip`，对照 `SHA256SUMS` 校验并解压。
 2. 打开 `CompanionHover.app`。当前预览版为临时签名、尚未公证，首次打开可能需要按 [Apple 官方步骤](https://support.apple.com/zh-cn/102445) 在“系统设置 → 隐私与安全性”中选择“仍要打开”。不要全局关闭 Gatekeeper。
 3. 悬停中间或右侧按钮。右键胶囊 → **外观**，选择深色、浅色或跟随系统。
 4. 希望随 Codex 启动时，在解压目录运行 `python3 install.py`，无需管理员权限。

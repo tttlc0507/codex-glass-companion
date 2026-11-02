@@ -34,7 +34,7 @@ A small floating glass capsule for Codex on macOS. Start a chat, hover to check 
 
 ### Download and run
 
-1. Download the `macos-universal.zip` asset from [Releases](https://github.com/tttlc0507/codex-glass-companion/releases/latest), verify its checksum against `SHA256SUMS`, and extract it.
+1. Download the `macos-universal.zip` asset from [Releases](https://github.com/tttlc0507/codex-glass-companion/releases), verify its checksum against `SHA256SUMS`, and extract it.
 2. Open `CompanionHover.app`. For the first run of this **ad-hoc signed, not notarized** preview, macOS may require **System Settings → Privacy & Security → Open Anyway**. See [Apple's instructions](https://support.apple.com/en-us/102445). Do not disable Gatekeeper globally.
 3. Hover the middle or right control. Right-click the capsule → **外观** to choose **深色玻璃** (dark), **浅色玻璃** (light), or **跟随系统** (system).
 4. Optional: in the extracted folder, run `python3 install.py` to install in your user Library and enable launch synchronization. No administrator access is used.
