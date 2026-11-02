@@ -1,0 +1,24 @@
+# Local creation history; never publish these folders.
+/work/
+/outputs/
+
+# Build products and local data.
+/build/
+/dist/
+*.app/
+*.zip
+*.dmg
+*.dSYM/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+!.env.example
+*.sqlite*
+*.jsonl
+*.log
+.venv/
+.idea/
+.vscode/
+

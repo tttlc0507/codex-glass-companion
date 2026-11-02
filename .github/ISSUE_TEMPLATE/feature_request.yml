@@ -1,0 +1,15 @@
+name: Idea or experience report / 建议或使用体验
+description: Share a use case, feature idea or compatibility result.
+body:
+  - type: textarea
+    id: usecase
+    attributes:
+      label: What were you trying to do? / 使用场景
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior or experience / 建议行为或体验
+    validations:
+      required: true

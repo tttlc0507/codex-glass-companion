@@ -1,0 +1,30 @@
+name: Bug report / 问题反馈
+description: Report a reproducible issue with sanitized details.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "Please do not upload authentication files, complete rollout logs or private task names. 请勿上传认证文件、完整会话日志或私人任务名称。"
+  - type: input
+    id: version
+    attributes:
+      label: Companion / macOS / Codex versions and CPU
+      placeholder: "v1.4.0 / macOS 26 / Codex version / Apple Silicon or Intel"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce / 重现步骤
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual result / 预期与实际结果
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Sanitized screenshot or example / 已脱敏截图或示例
